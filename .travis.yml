@@ -8,4 +8,4 @@ script:
  - python main.py
  - echo ciao
  - echo $SAY_MY_NAME
- - printenv
+ - echo $PASSWORD
