@@ -9,6 +9,8 @@ script:
 - echo ciao
 - echo $SAY_MY_NAME
 - echo $PASSWORD
+before_deploy:
+ - git config --local user.name "Giorgio Visani"
 deploy:
   provider: releases
   api_key:
