@@ -1,5 +1,5 @@
 language: python
-
+dist: bionic
 script: 
  - python main.py
  - echo ciao
